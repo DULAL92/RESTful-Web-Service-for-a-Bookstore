@@ -1,10 +1,10 @@
 # RESTful-Web-Service-for-a-Bookstore
 Create a RESTful web service for a simple bookstore management system. This service should allow users to manage books and authors. The service should support basic CRUD operations, partial updates, and proper data persistence.
 
-#Requirements
+# Requirements
 For development, you will need git,Java 11+ ,Spring Boot 2.5+ ,Spring Data JPA, JUnit 5 ,Mockito, Maven, MySQL database installed in your environment.
 
-Getting Started
+# Getting Started
 1. Setting Up Your Local Clone
     Before you begin working on anything, make sure you follow these steps in order to set up a clone on your local machine:
 
@@ -15,22 +15,24 @@ Getting Started
       # Otherwise for HTTPS:
        git clone https://github.com/Dev-Sisyphus/Event-Management.git
        cd into the directory of your local clone.
-2. Installation
+2. # Installation
      Installs Java 11+, Postman ,Spring Boot 2.5+ ,Spring Data JPA, JUnit 5 ,Mockito, Maven, MySQL
 
-3. Run the Java Program
+3. # Run the Java Program
    a) Automitical Two table will be created such as Auther and Book in Database
    
-4. Final Output
-   Using Postman software put bellow url link for call api 
-       • Authors:
+4. # Final Output
+     # Using Postman software put bellow url link for call api
+   
+        # Authors:
          o GET /authors - Retrieve all authors
          o GET /authors/{id} - Retrieve an author by ID
          o POST /authors - Create a new author
          o PATCH /authors/{id} - Partially update an existing author
          o PUT /authors/{id} - Update an existing author
          o DELETE /authors/{id} - Delete an author
-     • Books:
+   
+       # Books:  
         o GET /books - Retrieve all books
         o GET /books/{id} - Retrieve a book by ID
         o POST /books - Create a new book
@@ -38,7 +40,8 @@ Getting Started
         o PATCH /books/{id} - Partially update an existing book
         o DELETE /books/{id} - Delete a book
 
-
+# Junit 5 Test
+ I not do unit test beacuse Junit5 are not availabel in my eclipse environment
 
 
 
