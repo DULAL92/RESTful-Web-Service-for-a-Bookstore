@@ -1,20 +1,28 @@
 # RESTful-Web-Service-for-a-Bookstore
 Create a RESTful web service for a simple bookstore management system. This service should allow users to manage books and authors. The service should support basic CRUD operations, partial updates, and proper data persistence.
-## Installation
-   Steps to install your project:
-   ```bash
-   git clone https://github.com/yourusername/project-name.git
-   cd project-name
 
+#Requirements
+For development, you will need git,Java 11+ ,Spring Boot 2.5+ ,Spring Data JPA, JUnit 5 ,Mockito, Maven, MySQL database installed in your environment.
 
+Getting Started
+1. Setting Up Your Local Clone
+    Before you begin working on anything, make sure you follow these steps in order to set up a clone on your local machine:
 
+    Clone this repo to your local machine with one of the commands below.
 
-# Usage
-    Access the API at http://localhost:9090.
-      1. Create a Spring Boot project with the following entities:
-        • Author: id, name, email
-        • Book: id, title, isbn, authorId
-     2. Endpoints:
+      # If you have SSH set up with Git:
+       git clone git@github.com:Dev-Sisyphus/Event-Management.git
+      # Otherwise for HTTPS:
+       git clone https://github.com/Dev-Sisyphus/Event-Management.git
+       cd into the directory of your local clone.
+2. Installation
+     Installs Java 11+, Postman ,Spring Boot 2.5+ ,Spring Data JPA, JUnit 5 ,Mockito, Maven, MySQL
+
+3. Run the Java Program
+   a) Automitical Two table will be created such as Auther and Book in Database
+   
+4. Final Output
+   Using Postman software put bellow url link for call api 
        • Authors:
          o GET /authors - Retrieve all authors
          o GET /authors/{id} - Retrieve an author by ID
@@ -32,13 +40,6 @@ Create a RESTful web service for a simple bookstore management system. This serv
 
 
 
-# Tools & Technologies:
-   o Java 11+
-   o Spring Boot 2.5+
-   o Spring Data JPA
-   o JUnit 5
-   o Mockito
-   o Maven or Gradle
-   o MySQL/PostgreSQL database
+
 
 
