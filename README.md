@@ -11,9 +11,9 @@ For development, you will need git,Java 11+ ,Spring Boot 2.5+ ,Spring Data JPA, 
     Clone this repo to your local machine with one of the commands below.
 
       # If you have SSH set up with Git:
-       git clone git@github.com:Dev-Sisyphus/Event-Management.git
+       git@github.com:DULAL92/RESTful-Web-Service-for-a-Bookstore.git
       # Otherwise for HTTPS:
-       git clone https://github.com/Dev-Sisyphus/Event-Management.git
+       https://github.com/DULAL92/RESTful-Web-Service-for-a-Bookstore.git
        cd into the directory of your local clone.
 2. # Installation
      Installs Java 11+, Postman ,Spring Boot 2.5+ ,Spring Data JPA, JUnit 5 ,Mockito, Maven, MySQL
