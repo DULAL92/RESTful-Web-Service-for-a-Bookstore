@@ -17,11 +17,14 @@ For development, you will need git,Java 11+ ,Spring Boot 2.5+ ,Spring Data JPA, 
        cd into the directory of your local clone.
 2. # Installation
      Installs Java 11+, Postman ,Spring Boot 2.5+ ,Spring Data JPA, JUnit 5 ,Mockito, Maven, MySQL
+     And put dependencies such as org.spring-boot-starter-we, org.spring-boot-starter-data-jpa, org.junit.jupiter, com.mysql,com.h2database,spring-boot-starter-test,org.junit.vintage, 
+     and org.mockito
 
-3. # Run the Java Program
-   a) Automitical Two table will be created such as Auther and Book in Database
+4. # Run the Java Program
+    Right click on you project->Run as->Javaapplication
+        #  Automitical Two table will be created such as Auther and Book in Database
    
-4. # Final Output
+5. # Final Output
      # Using Postman software put bellow url link for call api
    
         # Authors:
@@ -41,7 +44,9 @@ For development, you will need git,Java 11+ ,Spring Boot 2.5+ ,Spring Data JPA, 
         o DELETE /books/{id} - Delete a book
 
 # Junit 5 Test
- I not do unit test beacuse Junit5 are not availabel in my eclipse environment
+ Service layer Junit5 test are done.
+ How to run Test class---
+    #  Right click the test class->Run as->JUnit Test
 
 
 
